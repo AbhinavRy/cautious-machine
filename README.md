@@ -2,9 +2,9 @@
 
 ###C3_learning:
 ##frontend:
-  -CRA(create-react-app)
-  -axios
+  - CRA(create-react-app)
+  - axios
   
 ##backend:
-  -NodeJs
-  -ExpressJs
+  - NodeJs
+  - ExpressJs
