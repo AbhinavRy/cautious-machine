@@ -1,10 +1,10 @@
 # cautious-machine
 
 #C3_learning:
-frontend:
-  CRA(create-react-app)
-  axios
+frontend:\n
+  CRA(create-react-app)\n
+  axios\n
   
- backend:
-  nodejs
-  expressjs
+ backend:\n
+  nodejs\n
+  expressjs\n
