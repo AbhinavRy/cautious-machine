@@ -1,27 +1,27 @@
 const express = require('express');
 const router = express.Router();
 
-const homework = [
+const leaderboard = [
     {
-        subject:"Maths",
-        progress:"40%"
+        name:"John Doe",
+        score:"94"
     },
     {
-        subject:"Physics",
-        progress:"100%"
+        name:"Jack Johnsson",
+        score:"88"
     },
     {
-        subject:"Chemistry",
-        progress:"74%"
+        name:"Andy Anderson",
+        score:"60"
     }
 ];
 
 router.get('/', (req, res) => {
     try {
-        if(!homework){
-            res.status(400).send("No Homework Found.");
+        if(!leaderboard){
+            res.status(400).send("No Entries Found.");
         }
-        res.json(homework);
+        res.json(leaderboard);
     } catch (err) {
         console.error(err.message);
         res.status(500).send("Server Error");

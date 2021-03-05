@@ -1,0 +1,13 @@
+.inline {
+  display: inline-block;
+}
+
+.card {
+  margin: 5vw;
+}
+
+@media screen and (max-width: 768px) {
+    #menu-toggle:checked + .nav-menu {
+      display: block;
+    }
+}
