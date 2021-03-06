@@ -3,7 +3,7 @@
 ## C3_learning:
 ### frontend:
   - CRA(create-react-app)
-  - axios
+  - Bulma (CSS framework)
   
 ### backend:
   - NodeJs
