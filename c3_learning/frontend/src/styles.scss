@@ -1,0 +1,31 @@
+$primaryColor:#ecf0f1;
+$secondaryColor:#27ae60;
+
+body{
+  background-color:$primaryColor;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.card-header-title {
+  background: $secondaryColor;
+  color: $primaryColor;
+}
+
+.card {
+  margin: 3vw;
+}
+
+.behind {
+  position: absolute;
+  top: 0;
+  right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    #menu-toggle:checked + .nav-menu {
+      display: block;
+    }
+}

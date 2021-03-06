@@ -3,7 +3,8 @@ const router = express.Router();
 
 const tasks = [
     "To complete the assignment 4 of Maths.",
-    "To read the topic 24.3 under optics unit"
+    "To read the topic 24.3 under optics unit.",
+    "Complete exercise 1 and 2 of Chemistry."
 ];
 
 router.get('/', (req, res) => {
